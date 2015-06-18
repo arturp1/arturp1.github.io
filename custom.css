@@ -13,16 +13,19 @@ p{
 	color: black;
 }
 
-.a {
-  
-border: none;
-  
-line-height: 1;
-  
-margin: 0;
-  
-padding: 0;
+.block {
+  background: green;
+  height: 100px;
+  width: 100px;
+  display:inline-block;
+  margin: 10px;
+}
 
+.a {  
+border: none;
+line-height: 1;
+margin: 0;
+padding: 0;
 min-height: 800px;
 
 }
@@ -106,8 +109,6 @@ border-radius:10px;
 display:block;
 }
 
-
-
 .navbar{
 background: black
 }
@@ -117,7 +118,6 @@ background: black
     bottom: 20px;
     right: 20px;
 }
-
 
 .center{
 	display: block;
@@ -172,11 +172,13 @@ height: 50px;
 .kolumnaC {
 background: gold;
 height: 50px;
+width: 300px;
 }
 
 .kolumnaD{
 background: lightgreen;
 height:25px;
+width: 300px;
 }
 
 .kolumnaE{
@@ -236,22 +238,3 @@ html {
 	top:0;
 	left:0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
