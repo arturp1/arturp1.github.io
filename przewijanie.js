@@ -26,7 +26,7 @@ $(document).ready(function(){
                     images.eq(i).src=''
                 }
                 images.eq(i).css({
-                    top			: centerY+15*eSin,
+                    top			: (centerY+15*eSin)-100,
                     left		: centerX+200*eCos,
                     opacity		: 0.8+eSin*0.2,
                     marginLeft	: -newWidth/2,
