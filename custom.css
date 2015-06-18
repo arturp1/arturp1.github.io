@@ -172,18 +172,29 @@ height: 50px;
 .kolumnaC {
 background: gold;
 height: 50px;
-width: 300px;
 }
 
 .kolumnaD{
 background: lightgreen;
 height:25px;
-width: 300px;
 }
+
 
 .kolumnaE{
 background: gray
 height:25px;
+}
+
+.kolumnaF {
+background: gold;
+height: 50px;
+width: 300px;
+}
+
+.kolumnaG{
+background: lightgreen;
+height: 25px;
+width: 300px;
 }
 
 .body{
